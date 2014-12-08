@@ -32,7 +32,7 @@
 <script>
 
 queue()
-    .defer(d3.json, 'data.json')
+    .defer(d3.json, 'sightpps.json')
     .defer(d3.json, 'Shape_files/stateshape2.json')
     .await(makeMap)
 
